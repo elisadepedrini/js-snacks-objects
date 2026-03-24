@@ -23,4 +23,9 @@ for (let i = 0; i < soccerTeams.length; i++) {
         soccerTeams[i].foulsWon = Math.floor(Math.random() * 21);
         console.log(soccerTeams[i]);  
     } 
+
+    const result = [soccerTeams[i].name, soccerTeams[i].foulsWon]
+    console.log(result);
 }
+
+
